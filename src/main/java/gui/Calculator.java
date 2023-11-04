@@ -154,8 +154,7 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 				if (operator == null || operator.isEmpty()) {
 					number1 += value; break;}
 				else {
-					number2 += value; break;
-				}
+					number2 += value; break;}
 		}
 		
 		if (operator==null) {
